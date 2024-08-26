@@ -1,0 +1,72 @@
+
+.find-container {  
+    background-color: inherit;  
+    padding: 30px;  
+    border-radius: 5px;  
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);  
+    width: 400%;  
+    justify-content: center;  
+    align-items: center; 
+    margin-left: 15%; 
+    margin-bottom: 5%;
+}  
+
+h2 {  
+    margin-bottom: 20px;  
+    text-align: center;  
+    color: #333;  
+}  
+
+.input-group {  
+    position: relative;  
+    /* margin-bottom: 20px;   */
+}  
+
+input {  
+    width: 100%;  
+    padding: 10px;  
+    border: 1px solid #ccc;  
+    border-radius: 5px;  
+    outline: none;  
+    transition: border 0.3s;  
+}  
+
+input:focus {  
+    border-color: #0d6efd rgba(13, 110, 253, 0.8);  
+}  
+
+.input-highlight {  
+    position: absolute;  
+    bottom: 0;  
+    left: 0;  
+    width: 0;  
+    height: 2px;  
+    background-color: #007bff;  
+    transition: width 0.3s;  
+}  
+
+input:focus + .input-highlight {  
+    width: 100%;  
+}  
+
+
+
+button {  
+    width: 30%;  
+    padding: 10px;  
+    color: white;  
+    border: none;  
+    border-radius: 10px;  
+    cursor: pointer;  
+ 
+}  
+
+
+
+
+ 
+
+
+
+
+
